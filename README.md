@@ -30,21 +30,7 @@ All info comes straight from ASU's own API.
 2. Search for any class
 3. Prereq info appears automatically under each result
 
-**Cards not showing?** The extension might not know which term you are looking at:
-
-1. Right-click the extension icon and open **Options**
-2. Find the four-digit number after `term=` in the URL bar on Class Search
-3. Enter it and save
-4. Refresh the page
-
----
-
-## Options
-
-Right-click the extension icon and open **Options**
-
-- **Session code:** enter the four-digit term number from the URL bar if auto-detect is not working
-- Leave it blank and the extension will try to pick it up on its own
+If cards are not showing after a search, try refreshing the page. In rare cases where the extension still cannot detect the term, you can set it manually via the extension Options (right-click the icon).
 
 ---
 
