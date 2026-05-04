@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy: ASU Prereq Helper</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        line-height: 1.5;
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 1.5rem 1.25rem 3rem;
+        color: #1a1a1a;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #e8e8e8;
+          background: #121212;
+        }
+        a {
+          color: #7eb6ff;
+        }
+      }
+      h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+      }
+      h2 {
+        font-size: 1.1rem;
+        margin-top: 1.75rem;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      .meta {
+        color: #555;
+        font-size: 0.95rem;
+      }
+      @media (prefers-color-scheme: dark) {
+        .meta {
+          color: #aaa;
+        }
+      }
+      code {
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy policy: ASU Prereq Helper</h1>
+    <p class="meta"><strong>Last updated:</strong> May 3, 2026</p>
+
+    <p>
+      This policy describes the Chrome extension <strong>ASU Prereq Helper</strong>
+      (“the Extension”).
+    </p>
+
+    <h2>What the Extension does</h2>
+    <p>
+      The Extension runs on Arizona State University (<code>asu.edu</code>)
+      websites. It reads public class search pages you already have open, finds
+      course codes (for example <code>CSE 230</code>), and requests
+      <strong>public course requirement text</strong> from ASU’s My ASU
+      platform API (<code>api.myasuplat-dpl.asu.edu</code>) so prerequisites and
+      duplicate-credit rules can be shown next to search results.
+    </p>
+
+    <h2>Data collection and storage</h2>
+    <ul>
+      <li>
+        The Extension <strong>does not</strong> collect personal information,
+        analytics, or browsing history for the developer.
+      </li>
+      <li>
+        The Extension <strong>does not</strong> sell or share data with third
+        parties.
+      </li>
+      <li>
+        The Extension may store <strong>only</strong> the following on your
+        device using Chrome’s extension storage APIs:
+        <ul>
+          <li>
+            The <strong>last session (term) code</strong> detected from a Class
+            Search URL or link on the page, so requirement lookups can keep
+            working when the address bar does not include a term code.
+          </li>
+          <li>
+            An <strong>optional manual session code</strong> if you choose to
+            set one in the extension options.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      These values stay on your device and are used only to choose the correct
+      term when querying the public API.
+    </p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li>
+        <strong><code>storage</code>:</strong> Save the optional manual term
+        and the last detected term as described above.
+      </li>
+      <li>
+        <strong
+          >Host access to <code>*.asu.edu</code> and
+          <code>api.myasuplat-dpl.asu.edu</code>:</strong
+        >
+        Inject the prerequisite summary on ASU pages and fetch course
+        requirement descriptions from ASU’s API.
+      </li>
+    </ul>
+
+    <h2>Third-party services</h2>
+    <p>
+      Course text is retrieved from <strong>Arizona State University</strong>
+      systems only, as you would load in a normal browser session. The Extension
+      does not send that content to any other servers.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For privacy questions about this Extension, contact the developer using
+      the contact information on the Chrome Web Store listing (if provided) or
+      the project’s source repository.
+    </p>
+
+    <h2>Changes</h2>
+    <p>
+      If this policy changes, the “Last updated” date at the top will be revised.
+      For material changes, the Chrome Web Store listing may also be updated.
+    </p>
+  </body>
+</html>
