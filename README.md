@@ -9,8 +9,6 @@ A Chrome extension that shows prerequisites and credit equivalencies for ASU cla
 
 ![ASU Prereq Helper on Class Search](images/i1.png)
 
-![Prereq card closeup](images/i2.png)
-
 ---
 
 ## What it shows
@@ -31,6 +29,8 @@ All info comes straight from ASU's own API.
 3. Prereq info appears automatically under each result
 
 If cards are not showing after a search, try refreshing the page. In rare cases where the extension still cannot detect the term, you can set it manually via the extension Options (right-click the icon).
+
+![Prereq card closeup](images/i2.png)
 
 ---
 
