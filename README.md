@@ -1,6 +1,6 @@
 # ASU Prereq Helper
 
-A Chrome extension that shows prerequisites and credit equivalencies for ASU classes right on the Class Search page. No more clicking into each course just to see what you need.
+A Chrome extension that shows prerequisites and credit equivalencies in-line. 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Chrome](https://img.shields.io/badge/Chrome-Extension-yellow.svg)](https://www.google.com/chrome/)
