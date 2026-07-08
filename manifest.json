@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "ASU Prereq Helper",
-  "version": "1.0.1",
-  "description": "Adds prerequisite and duplicate-credit information next to courses on Arizona State University Class Search, using ASU's public course API.",
+  "version": "1.0.2",
+  "description": "Adds prerequisite and duplicate-credit information next to courses on ASU Class Search, using ASU's public course API.",
   "homepage_url": "https://github.com/robcaran/asu-prereq-extension",
   "minimum_chrome_version": "100",
   "icons": {
