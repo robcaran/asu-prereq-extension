@@ -193,8 +193,8 @@ function fillPrereqCard(card, data, errorMessage) {
 }
 
 function injectPrereqCard(courseCode, data, errorMessage) {
-  document.querySelectorAll(".class-results-cell *").forEach((el) => {
-    if (el.children.length === 0 && el.textContent.trim() === courseCode) {
+  document.querySelectorAll(".class-results-cell .bold-hyperlink").forEach((el) => {
+    if (el.textContent.trim() === `Course: ${courseCode}`) {
       const container = el.closest(".class-results-cell") || el.parentElement;
       if (!container || container.querySelector(".asu-prereq-card")) return;
       const card = document.createElement("div");
@@ -224,10 +224,9 @@ function fetchRequirements(subject, catalogNumber, strm) {
 
   function findCourses() {
     const courses = new Set();
-    document.querySelectorAll(".class-results-cell *").forEach((el) => {
-      if (el.children.length === 0 && /^([A-Z]{3})\s(\d{3})$/.test(el.textContent.trim())) {
-        courses.add(el.textContent.trim());
-      }
+    document.querySelectorAll(".class-results-cell .bold-hyperlink").forEach((el) => {
+      const m = el.textContent.trim().match(/^Course:\s+([A-Z]{3}\s\d{3})$/);
+      if (m) courses.add(m[1]);
     });
     return [...courses];
   }
